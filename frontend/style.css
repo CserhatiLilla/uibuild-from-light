@@ -1,0 +1,104 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7e4d4;
+}
+
+#root h1 {
+  position: relative;
+  text-align: center;
+  top: 150px;
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  font-size: 48px;
+  color: #467745;
+}
+
+@media only screen and (max-width: 520px) {
+  #root h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+}
+
+#root .first {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  width: 480px;
+  height: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 520px) {
+  #root .first {
+    width: 100%;
+    height: 40px;
+    left: 20px;
+  }
+}
+
+#root textarea {
+  width: 480px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 520px) {
+  #root textarea {
+    width: 100%;
+    height: 40px;
+    left: 20px;
+  }
+}
+
+#root p {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 520px) {
+  #root p {
+    width: 100%;
+    height: 40px;
+    left: 20px;
+  }
+}
+
+#root p label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+#root button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 280px;
+  height: 80px;
+  border-radius: 15px;
+  background-color: #467745;
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  font-size: 21px;
+  color: #f7e4d4;
+  letter-spacing: 0.2em;
+}
+/*# sourceMappingURL=style.css.map */
